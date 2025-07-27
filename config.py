@@ -23,9 +23,9 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "7931860537"))
+OWNER_ID = int(getenv("OWNER_ID", "8094471589"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "NAXQUEEN_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "BA_X_QUEEN_BOT")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ASIFXQUEEN903/NAVEENXNUSIC903",
+    "https://github.com/BABULXQUEEN596/BABULXMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "ALONE")
 GIT_TOKEN = getenv(
@@ -86,21 +86,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/bonngs.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/bonngs.jpg"
 )
-PLAYLIST_IMG_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
-STATS_IMG_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
-TELEGRAM_AUDIO_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
-TELEGRAM_VIDEO_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
-STREAM_IMG_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
-SOUNCLOUD_IMG_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
-YOUTUBE_IMG_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/7tqFxT5s/IMG-20250303-200846-176.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/bonngs.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/bonngs.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/bonngs.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/bonngs.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/bonngs.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/bonngs.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/bonngs.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/bonngs.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/bonngs.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/bonngs.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
