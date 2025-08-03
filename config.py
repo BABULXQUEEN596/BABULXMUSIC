@@ -23,9 +23,9 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "8094471589"))
+OWNER_ID = int(getenv("OWNER_ID", "8056933046"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "BA_X_QUEEN_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "BAX_QUEEN_BOT")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BABUL_ON_TG")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/XQUEENSERVERBABUL")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BOSS_OF_BABUL")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ODIA_CHAT_ROOM")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
